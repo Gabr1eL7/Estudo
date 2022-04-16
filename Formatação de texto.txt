@@ -1,0 +1,28 @@
+Notas HTML
+
+EMOJIS
+Para ser inserido o emojis deve ser colado o codepoints
+e substituir o U+ por &#X
+por exemplo:
+U+1F604
+&#X1F604
+
+FAVICON
+
+Para ser inserido uma imagem ao lado do titulo do site 
+é utilizado o favicon, para isso é utilizado link:favicon
+
+*FORMATAÇÃO DE TEXTOS*
+
+A tag <strong> significa que o termo delimitado possui força dentro da frase. Logo, 
+ele aparecerá em negrito. 
+
+Já a tag <em> significa que queremos dar ênfase (do Inglês emphasis) ao termo. 
+Logo, ele aparecerá em itálico.
+
+Deixar o texto com efeito marca texto, usamos a tag <mark>
+
+tag <del> para deixar o texto aparecer com um risco no meio, visivel mas 
+como que pode ser descartado
+
+tag <ins> para deixar o texto sublinhado
