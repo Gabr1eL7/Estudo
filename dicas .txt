@@ -1,0 +1,9 @@
+DICA DE ATALHO E SELECIONAMENTO 	
+
+Clicando CTRL junto com ESPAÇO no VScode escolhemos o
+material que será aplicado ou selecionado, sendo assim
+não sendo necessário copiar TODO o caminho
+
+NOTA LINKS
+
+Colocando # no href não precisamos colocar o endereçamento

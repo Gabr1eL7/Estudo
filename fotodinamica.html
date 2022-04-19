@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto Dinamica</title>
+</head>
+<body>
+    <h1>Foto Dinamica</h1>
+
+    <p>Para a foto funcionar em diversas plataformas e formatos diferentes de telas utlizamos o <em>(source)</em> junto com media, srcset e type. Desta forma, conforme a redução de px a imagem irá sendo reduzida. </p>
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens\foto-p.png" type="image/png">
+    <source media="(max-width: 1000px)" srcset="imagens\foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="A imagem flexível funciona">
+</picture>
+<hr>
+<h2>Audio</h2>
+
+<P>Para ser adiocionado audio em nosso site é inserido o (audio preload="") junto com sources, o source pode ser(auto) irá carregar o arquivo automaticamente com a pagina, (metadata) irá carregar apenas as informações e (none) não vai carregar nada até ser clicado.
+
+<br>
+<audio preload="metadata" controls loop>
+    <source src="audio\happy-mistake.mp3" type="audio/mpeg">
+</audio>
+<br>
+ 
+<a href="audio\happy-mistake.mp3" download="audio\happy-mistake.mp3" type="audio/mpeg"> Download música</a>
+
+<h2> Video</h2>
+
+<video width="560" controls autoplay loop>
+<source src="midia\meu-video.mp4" type="video/mp4">
+
+</video>
+<br>
+
+<h2>Inserindo video do Youtube</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VyK0_CzLI9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
